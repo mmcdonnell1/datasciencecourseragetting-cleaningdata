@@ -1,9 +1,10 @@
 datasciencecourseragetting-cleaningdata
 =======================================
 
-This file -- in partnership with the run_analysis.R script -- details the process followed to convert
-the Samsung Galaxy S smartphone data sets into one tidy data set containing the means grouped by subject and
-activity of each "mean" and "standard deviation" variable.
+This file -- in partnership with the run_analysis.R script and CodeBook.txt file, both included within
+this repository -- details the process followed to convert the Samsung Galaxy S smartphone data sets into
+one tidy data set containing the means grouped by subject and activity of each "mean" and "standard
+deviation" variable.
 
 1.  Import, join, and label the data sets
 
