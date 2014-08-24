@@ -1,8 +1,9 @@
 datasciencecourseragetting-cleaningdata
 =======================================
 
-This file details the process followed to convert the Samsung Galaxy S smartphone data sets into one tidy data set
-containing the means grouped by subject and activity of each "mean" and "standard deviation" variable.
+This file -- in partnership with the run_analysis.R script -- details the process followed to convert
+the Samsung Galaxy S smartphone data sets into one tidy data set containing the means grouped by subject and
+activity of each "mean" and "standard deviation" variable.
 
 1.  Import, join, and label the data sets
 
@@ -27,6 +28,18 @@ containing the means grouped by subject and activity of each "mean" and "standar
   A. Use the merge function to append the correct activity label to each master data set record.
 
 5.  Update labels to be descriptive and tidy
+
+  A. Input underscores between each descriptive word/abbreviation.
+  
+  B. Convert X, Y, and Z to x_axis, y_xis, and z_axis to be more descriptive.
+  
+  C. Convert the t and f prefixes to "time" and "frequency" to be more descriptive.
+  
+  D. Replace/remove non-descriptive (e.g. "-", "()") and repetitive values.
+  
+  E. Convert variable names to lower case
+  
+  F. Add new labels to data set
 
 6.  Create a second tidy data set with the average of each variable for each activity and each subject
 
