@@ -109,3 +109,5 @@
   TidyData <- cbind(XInclude.colMeans.by.Subject.Activity[,1:3],
                     format(round(XInclude.colMeans.by.Subject.Activity[,4:69], 4),
                            nsmall = 2))
+
+  write.table(TidyData, file = "./TidyData.txt", row.names = FALSE)
