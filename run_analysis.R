@@ -72,3 +72,8 @@
   XInclude.colMeans.by.Subject.Activity <- ddply(XInclude.subject.y.ActNames,
                                                  .(subjectid, activityid, activity_labels),
                                                  colwise(mean))
+  ## Create tidy data set
+  
+  TidyData <- cbind(XInclude.colMeans.by.Subject.Activity[,1:3],
+                    format(round(XInclude.colMeans.by.Subject.Activity[,4:69], 4),
+                           nsmall = 2))

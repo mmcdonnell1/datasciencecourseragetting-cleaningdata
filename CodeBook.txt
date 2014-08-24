@@ -1,0 +1,420 @@
+Data Dictionary
+
+subjectid: 1 (Integer)
+
+	Unique Identifier for each subject
+
+	1..30
+
+activityid: 1 (Integer)
+
+	Unique Identifier for each activity type
+
+	1..6 
+
+activity_labels: 18 (Factor with six levels)
+
+	Literal for each activity type
+
+	1 - WALKING
+	2 - WALKING_UPSTAIRS
+	3 - WALKING_DOWNSTAIRS
+	4 - SITTING
+	5 - STANDING
+	6 - LAYING
+
+tBodyAcc-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of the body in the x-axis (in xyz space) direction as measured by the accelerometer.
+
+tBodyAcc-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of the body in the y-axis (in xyz space) direction as measured by the accelerometer.
+
+tBodyAcc-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of the body in the z-axis (in xyz space) direction as measured by the accelerometer.
+
+tBodyAcc-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of time domain signals of the body in the x-axis (in xyz space) direction as measured by the accelerometer.
+
+tBodyAcc-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of time domain signals of the body in the y-axis (in xyz space) direction as measured by the accelerometer.
+
+tBodyAcc-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of time domain signals of the body in the z-axis (in xyz space) direction as measured by the accelerometer.
+
+tGravityAcc-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of gravity in the x-axis (in xyz space) direction as measured by the accelerometer.
+
+tGravityAcc-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of gravity in the y-axis (in xyz space) direction as measured by the accelerometer.
+
+tGravityAcc-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of gravity in the z-axis (in xyz space) direction as measured by the accelerometer.
+
+tGravityAcc-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of time domain signals of gravity in the x-axis (in xyz space) direction as measured by the accelerometer.
+
+tGravityAcc-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean for the standard deviation of time domain signals of gravity in the y-axis (in xyz space) direction as measured by the accelerometer.
+
+tGravityAcc-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean for the standard deviation of time domain signals of gravity in the z-axis (in xyz space) direction as measured by the accelerometer.
+
+tBodyAccJerk-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk signals in the x-axis (in xyz space) direction.
+
+tBodyAccJerk-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk signals in the y-axis (in xyz space) direction.
+
+tBodyAccJerk-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk signals in the z-axis (in xyz space) direction.
+
+tBodyAccJerk-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk signals in the x-axis (in xyz space) direction.
+
+tBodyAccJerk-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk signals in the y-axis (in xyz space) direction.
+
+tBodyAccJerk-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk signals in the z-axis (in xyz space) direction.
+
+tBodyGyro-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of the body in the x-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyro-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of the body in the y-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyro-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average time domain signals of the body in the z-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyro-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the time domain signals of the body in the x-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyro-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the time domain signals of the body in the y-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyro-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the time domain signals of the body in the z-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyroJerk-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk signals in the x-axis (in xyz space) direction as measured by the gyroscope.*
+
+tBodyGyroJerk-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk signals in the y-axis (in xyz space) direction as measured by the gyroscope.*
+
+tBodyGyroJerk-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk signals in the z-axis (in xyz space) direction as measured by the gyroscope.*
+
+tBodyGyroJerk-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk signals in the x-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyroJerk-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk signals in the y-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyGyroJerk-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk signals in the z-axis (in xyz space) direction as measured by the gyroscope.
+
+tBodyAccMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the time domain signals of the body as measured by the accelerometer.
+
+tBodyAccMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the time domain signals of the body as measured by the accelerometer.
+
+tGravityAccMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the time domain signals of gravity as measured by the accelerometer.
+
+tGravityAccMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the time domain signals of gravity as measured by the accelerometer.
+
+tBodyAccJerkMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the body acceleration jerk signals as measured by the accelerometer.
+
+tBodyAccJerkMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the body acceleration jerk signals as measured by the accelerometer.
+
+tBodyGyroMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the body acceleration jerk signals as measured by the gyroscope.
+
+tBodyGyroMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the body acceleration jerk signals as measured by the gyroscope.
+
+tBodyGyroJerkMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the body acceleration jerk signals as measured by the gyroscope.
+
+tBodyGyroJerkMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the body acceleration jerk signals as measured by the gyroscope.
+
+fBodyAcc-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average frequency domain signals of the body in the x-axis (in xyz space) direction as measured by the accelerometer.
+
+fBodyAcc-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average frequency domain signals of the body in the y-axis (in xyz space) direction as measured by the accelerometer.
+
+fBodyAcc-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average frequency domain signals of the body in the z-axis (in xyz space) direction as measured by the accelerometer.
+
+fBodyAcc-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of frequency domain signals of the body in the x-axis (in xyz space) direction as measured by the accelerometer.
+
+fBodyAcc-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of frequency domain signals of the body in the y-axis (in xyz space) direction as measured by the accelerometer.
+
+fBodyAcc-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation of frequency domain signals of the body in the z-axis (in xyz space) direction as measured by the accelerometer.
+
+fBodyAccJerk-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk frequency signals in the x-axis (in xyz space) direction.
+
+fBodyAccJerk-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk frequency signals in the y-axis (in xyz space) direction.
+
+fBodyAccJerk-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average body acceleration jerk frequency signals in the z-axis (in xyz space) direction.
+
+fBodyAccJerk-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk frequency signals in the x-axis (in xyz space) direction.
+
+fBodyAccJerk-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk frequency signals in the y-axis (in xyz space) direction.
+
+fBodyAccJerk-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the body acceleration jerk frequency signals in the z-axis (in xyz space) direction.
+
+fBodyGyro-mean()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average frequency domain signals of the body in the x-axis (in xyz space) direction as measured by the gyroscope.
+
+fBodyGyro-mean()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average frequency domain signals of the body in the y-axis (in xyz space) direction as measured by the gyroscope.
+
+fBodyGyro-mean()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average frequency domain signals of the body in the z-axis (in xyz space) direction as measured by the gyroscope.
+
+fBodyGyro-std()-X:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the frequency domain signals of the body in the x-axis (in xyz space) direction as measured by the gyroscope.
+
+fBodyGyro-std()-Y:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the frequency domain signals of the body in the y-axis (in xyz space) direction as measured by the gyroscope.
+
+fBodyGyro-std()-Z:
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviation for the frequency domain signals of the body in the z-axis (in xyz space) direction as measured by the gyroscope.
+
+fBodyAccMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the frequency domain signals of the body as measured by the accelerometer.
+
+fBodyAccMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the frequency domain signals of the body as measured by the accelerometer.
+
+fGravityAccMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the frequency domain signals of gravity as measured by the accelerometer.
+
+fGravityAccMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the frequency domain signals of gravity as measured by the accelerometer.
+
+fBodyAccJerkMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the body acceleration jerk frequency signals as measured by the accelerometer.
+
+fBodyAccJerkMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the body acceleration jerk frequency signals as measured by the accelerometer.
+
+fBodyGyroMag-mean():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the average magnitudes, using the Euclidean norm, of the body acceleration jerk frequency signals as measured by the gyroscope.
+
+fBodyGyroMag-std():
+
+	Number between -1 and 1; 4 decimal places
+
+	Mean of the standard deviations for the magnitudes, using the Euclidean norm, of the body acceleration jerk frequency signals as measured by the gyroscope.
